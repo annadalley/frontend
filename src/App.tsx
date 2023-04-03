@@ -1,13 +1,17 @@
 import './App.css';
+import Nav from './components/Nav/Nav';
 import TopBanner from './Blah';
 import MovieList from './Movies';
 
 function App() {
   return (
-    <div className="App">
-      <TopBanner saying="Spencer's React Website" />
-      <MovieList />
-    </div>
+    <>
+      <Nav />
+      <div className="App">
+        <TopBanner saying="Joel Hilton's Movie Collection" />
+        <MovieList />
+      </div>
+    </>
   );
 }
 

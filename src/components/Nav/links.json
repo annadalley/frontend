@@ -1,0 +1,16 @@
+{
+  "links": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Podcasts",
+      "href": "https://baconsale.com/"
+    },
+    {
+      "label": "Collections",
+      "href": "/collections"
+    }
+  ]
+}
