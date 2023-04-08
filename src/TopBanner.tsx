@@ -1,5 +1,7 @@
 import React from 'react';
-import styles from './Blah.module.css';
+import styles from './TopBanner.module.css';
+
+//This is the text and picture for the home page
 
 function TopBanner(props: any) {
   return (
@@ -13,7 +15,7 @@ function TopBanner(props: any) {
           <h1 className={styles.h1}>{props.saying}</h1>
         </div>
       </div>
-      <div>
+      <div className="text-center">
         <br></br>
         <h2>This is a collection of all of Joel Hilton's movies!</h2>
         <h2>Click the Podcasts link to see Baconsale.com</h2>
